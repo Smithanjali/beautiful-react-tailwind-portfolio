@@ -108,14 +108,16 @@ Your app will be available at: [http://localhost:5173](http://localhost:5173)
 
 ## ☁️ Deployment
 
-### Deploy on Vercel
+### Deploy on GitHub Pages (Automatic)
 
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click **Deploy**
+1. Push your code to the `main` branch on GitHub.
+2. In your repository, open **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. The included workflow (`.github/workflows/deploy-pages.yml`) will build and publish automatically.
 
-Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
+Your live website will be available at:
+
+`https://smithanjali.github.io/beautiful-react-tailwind-portfolio/`
 
 ---
 

@@ -16,9 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+             I build full-stack applications using Java, Spring Boot, and React, and explore AI-driven solutions. Always learning, always building.S
             </p>
 
             <p className="text-muted-foreground">
